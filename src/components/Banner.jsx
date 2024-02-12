@@ -2,6 +2,7 @@ import bannerImage from "../assets/om.jpg";
 import bannerBackground from "../assets/banner_wallpaper.svg";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 const Banner = () => {
   const ele = useRef(null);
   useEffect(() => {
@@ -67,12 +68,12 @@ const Banner = () => {
           </div>
 
           <br />
-          <a
+          <Link
             className="text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg "
             href="/My-Portfolio-Website/contact"
           >
             Contact me
-          </a>
+          </Link>
         </div>
       </div>
       <div className=" w-full flex justify-center">
