@@ -15,71 +15,40 @@ const Projects = () => {
           }}
           className="box-container items-center flex py-16"
         >
-          <div className="flex text-white justify-center">
+          <div className="flex text-balance text-white ">
             {/* text container */}
-            <div className="w-2/3 text-center space-y-4">
-              <h1 className="text-4xl font-bold">1.City Guidance</h1>
-              <h1 className="text-4xl font-bold">2.Movie Review Analyssis</h1>
+            <div className="w-2/3  space-y-4 space-x-10">
+              <h1 className="text-4xl font-bold ml-10">1.City Guide in Java</h1>
+              <h1 className="text-2xl font-bold">
+                Environment/ Tools & Technology:
+              </h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-                autem facere molestias libero eaque praesentium, dignissimos
-                dolores, cum nisi rerum, modi corporis eligendi harum. Ut
-                provident saepe in et ipsum.
+                JSP, Servlet, JDK-8, MySQL, JDBC, HTML+CSS, JavaScript,
+                Bootstrap, Eclipse IDE
               </p>
-            </div>
-          </div>
-          <div className="flex justify-center">
-            {/* skills container */}
-
-            <div className="flex justify-center w-2/3 h-fit space-x-3  flex-wrap">
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-1 rounded-full hover:bg-orange-500 cursor-pointer">
-                Core Java
+              <h1 className="text-2xl font-bold">Project Description:</h1>
+              <p>
+                This is a Web application which is used to provide information
+                about the city. By selecting any city puser will get all the
+                information related colleges, hotels, hospitals, tourist Places
+                etc.
               </p>
-
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                J2EE
+              <h1 className="text-4xl font-bold">2.Movie Review Analyssis</h1>
+              <h1 className="text-2xl font-bold">
+                Environment/ Tools & Technology:
+              </h1>
+              <p>
+                JSP, Servlet, JDK-8, MySQL, JDBC, HTML+CSS, JavaScript,
+                Bootstrap, Eclipse IDE
               </p>
-
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Hibernate(ORM Tool)
+              <h1 className="text-2xl font-bold">Project Description:</h1>
+              <p>
+                This project helps to new users who wants to watch new and
+                latest movies which are currently running and updated by admin.
+                This project helps them to see reviews of new movies, given by
+                registered users
               </p>
-
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Spring Framework
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Spring Boot Framework
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Spring Security
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Javascript
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                ReactJS
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Tailwind CSS
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Angular
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                NextJS
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                State Management
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                AWS Cloud
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                EC2
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Deploying on Clound
-              </p>
+              <p></p>
             </div>
           </div>
         </div>

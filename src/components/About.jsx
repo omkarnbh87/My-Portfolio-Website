@@ -5,7 +5,7 @@ const About = () => {
     image: bannerImage,
     title: "Java Developer & React Developer",
 
-    desc1: ` I have completed Master of Computer Application from GL BAJAJ Institute od Technology and Management Gr.Noida GB Nagar UP`,
+    desc1: ` I have completed Master of Computer Application from GL BAJAJ Institute of Technology and Management Gr.Noida GB Nagar UP`,
     desc2: `  I have the knowledge about java backend development like hibernate, spring framework, spring boot, spring orm, spring mvc, spring boot security etc.`,
   });
   return (

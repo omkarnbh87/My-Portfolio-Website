@@ -20,10 +20,9 @@ const Skills = () => {
             <div className="w-2/3 text-center space-y-4">
               <h1 className="text-4xl font-bold">I love these technologies</h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-                autem facere molestias libero eaque praesentium, dignissimos
-                dolores, cum nisi rerum, modi corporis eligendi harum. Ut
-                provident saepe in et ipsum.
+                I love the java related technology for the development of
+                software and web applications.I am very curious to read
+                technology related to Java and backend development.
               </p>
             </div>
           </div>
@@ -34,9 +33,17 @@ const Skills = () => {
               <p className="bg-gray-300 w-fit px-3 py-2 mt-1 rounded-full hover:bg-orange-500 cursor-pointer">
                 Core Java
               </p>
-
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-1 rounded-full hover:bg-orange-500 cursor-pointer">
+                Java Collections
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-1 rounded-full hover:bg-orange-500 cursor-pointer">
+                Data Structures & Algorithms
+              </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 J2EE
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                JDBC
               </p>
 
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
@@ -53,31 +60,19 @@ const Skills = () => {
                 Spring Security
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                HTML
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                CSS
+              </p>
+              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 Javascript
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 ReactJS
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Tailwind CSS
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Angular
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                NextJS
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                State Management
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                AWS Cloud
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                EC2
-              </p>
-              <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                Deploying on Clound
+                Bootstrap
               </p>
             </div>
           </div>

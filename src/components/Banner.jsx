@@ -39,17 +39,29 @@ const Banner = () => {
             multithreading.
           </p>
           <div className="icons-container space-x-5 flex">
-            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
+            <a
+              href="https://www.facebook.com/omkarrajput87"
+              className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 "
+            >
               <i className="fa-brands text-4xl fa-facebook"></i>
             </a>
-            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
+            <a
+              href="https://www.instagram.com/omkarnbh87/?hl=en"
+              className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 "
+            >
               <i className="fa-brands text-4xl fa-instagram "></i>
             </a>
 
-            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
+            <a
+              href="https://linkedin.com/in/om-kar-4340891a0"
+              className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 "
+            >
               <i className="fa-brands text-4xl fa-linkedin"></i>
             </a>
-            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
+            <a
+              href="https://twitter.com/Omkarnbh87"
+              className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 "
+            >
               <i className="fa-brands text-4xl fa-twitter"></i>
             </a>
           </div>
