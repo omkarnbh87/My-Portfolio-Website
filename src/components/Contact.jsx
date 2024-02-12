@@ -19,12 +19,12 @@ const Contact = () => {
           <div className=" text-white ">
             {/* text container */}
             <div className="w-2/3  space-y-5">
-              <h1 className="text-4xl font-bold">Email:</h1>
-              <Link className="text-3xl font-bold">
-                contact.omkar87@gmail.com{" "}
-              </Link>
+              <h1 className="text-3xl font-bold">Email:</h1>
+              <a href="" className="text-3xl font-bold underline">
+                contact.omkar87@gmail.com
+              </a>
 
-              <h1 className="text-4xl font-bold">Mob: 9627408969</h1>
+              <h1 className="text-3xl font-bold">Mob: 9627408969</h1>
 
               <div className="icons-container space-x-5 flex">
                 <a

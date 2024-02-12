@@ -5,7 +5,7 @@ const Header = () => {
   const [brandName, setBrandName] = useState("Om Kar");
   const [actionButton, setActionButton] = useState({
     title: "Download CV",
-    link: "../assets/resume.pdf",
+    link: "https://raw.githubusercontent.com/omkarnbh87/My-Portfolio-Website/main/src/assets/resume.pdf",
   });
   const [menuLinks, setMenuLinks] = useState([
     {
@@ -54,7 +54,7 @@ const Header = () => {
         <div>
           <a
             href={actionButton.link}
-            download
+            download="resume.pdf"
             className="px-4 py-2 bg-orange-500 rounded-full shadow text-1xl"
           >
             {actionButton.title}
