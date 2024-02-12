@@ -70,7 +70,7 @@ const Banner = () => {
           <br />
           <Link
             className="text-2xl px-3 py-2 bg-orange-500 rounded-full shadow-lg "
-            href="/My-Portfolio-Website/contact"
+            to="/My-Portfolio-Website/contact"
           >
             Contact me
           </Link>
