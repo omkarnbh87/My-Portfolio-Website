@@ -1,35 +1,36 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [brandName, setBrandName] = useState("Om Kar");
   const [actionButton, setActionButton] = useState({
     title: "Download CV",
-    link: "./assets/resume.pdf",
+    link: "../assets/resume.pdf",
   });
   const [menuLinks, setMenuLinks] = useState([
     {
       title: "Home",
-      link: "/home",
+      link: "/My-Portfolio-Website/home",
       id: 1,
     },
     {
       title: "About",
-      link: "/about",
+      link: "/My-Portfolio-Website/about",
       id: 2,
     },
     {
       title: "Skills",
-      link: "/skills",
+      link: "/My-Portfolio-Website/skills",
       id: 3,
     },
     {
-      title: "Portfolio",
-      link: "/contacts",
+      title: "Projects",
+      link: "/My-Portfolio-Website/projects",
       id: 4,
     },
     {
       title: "Contact",
-      link: "/contact",
+      link: "/My-Portfolio-Website/contact",
       id: 5,
     },
   ]);
@@ -41,9 +42,13 @@ const Header = () => {
         </div>
         <div className="space-x-6">
           {menuLinks.map((link) => (
-            <a key={link.id} href={link.link} className="hover:text-orange-600">
+            <Link
+              key={link.id}
+              to={link.link}
+              className="hover:text-orange-600"
+            >
               {link.title}
-            </a>
+            </Link>
           ))}
         </div>
         <div>

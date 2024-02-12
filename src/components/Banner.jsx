@@ -32,23 +32,24 @@ const Banner = () => {
             I am <span className="font-bold underline" ref={ele}></span>
           </h2>
           <p className="mt-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus, nemo. Omnis quis reprehenderit aspernatur culpa
-            inventore rem, illum iure optio et blanditiis quia alias
-            consequuntur totam dicta vel molestiae.
+            I have the knowledge about java backend development.I have created
+            the many rest api and microservices for my own prjects.I have more
+            knowledge about core java like Oops, inheritence, polymorphism,
+            abstraction, encapsulation and exception handling and
+            multithreading.
           </p>
           <div className="icons-container space-x-5 flex">
             <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
               <i className="fa-brands text-4xl fa-facebook"></i>
             </a>
-            <a className="hover:bg-orange-600 border cursor-pointer pax-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800 ">
+            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
               <i className="fa-brands text-4xl fa-instagram "></i>
             </a>
 
-            <a className="hover:bg-orange-600 border cursor-pointer pax-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800 ">
+            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
               <i className="fa-brands text-4xl fa-linkedin"></i>
             </a>
-            <a className="hover:bg-orange-600 border cursor-pointer pax-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800 ">
+            <a className="hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-800 ">
               <i className="fa-brands text-4xl fa-twitter"></i>
             </a>
           </div>

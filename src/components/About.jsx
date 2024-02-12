@@ -5,13 +5,8 @@ const About = () => {
     image: bannerImage,
     title: "Java Developer & React Developer",
 
-    desc1: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-    aspernatur minima totam natus quisquam magni eaque porro
-    laudantium reprehenderit voluptate!`,
-    desc2: `  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laborum magni illum praesentium cumque eos modi possimus
-                corporis, rem eius architecto odit culpa cum non repellat dolor
-                magnam harum autem reprehenderit?`,
+    desc1: ` I have completed Master of Computer Application from GL BAJAJ Institute od Technology and Management Gr.Noida GB Nagar UP`,
+    desc2: `  I have the knowledge about java backend development like hibernate, spring framework, spring boot, spring orm, spring mvc, spring boot security etc.`,
   });
   return (
     <>
